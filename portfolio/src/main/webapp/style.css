@@ -76,7 +76,6 @@ ol ol, ul ul, ol ul, ul ol {
     outline-color: #d48a6e;
 }
 
-@media (min-width: 992px) {
     #sideNav {
         padding-left: 0;
         padding-right: 0;
@@ -116,7 +115,7 @@ ol ol, ul ul, ol ul, ul ol {
     #sideNav .navbar-collapse .navbar-nav .nav-item .nav-link {
         display: block;
     }
-}
+
 
 /* ---------------------------------------------------------------------------------------------------------------------------------------------------*/
 
@@ -164,18 +163,18 @@ section.resume-section .resume-section-content {
     width: 100%;
 }
 
-@media (min-width: 768px) {
+
     section.resume-section {
         min-height: 100vh;
     }
-}
 
-@media (min-width: 992px) {
+
+
     section.resume-section {
         padding-left: 3rem;
         padding-right: 3rem;
         padding-top: 5rem;
         padding-bottom: 5rem;
     }
-}
+
 

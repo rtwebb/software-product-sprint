@@ -41,3 +41,16 @@ window.addEventListener('DOMContentLoaded', event => {
 
 });
 
+
+/** Fetches the current date from the server and adds it to the page. */
+async function showMessage() {
+  const responseFromServer = await fetch('/hello');
+  const json1 = await responseFromServer.text();
+
+  const dateContainer = document.getElementById('hello-container');
+  dateContainer.innerText = json1;
+
+}
+
+
+
